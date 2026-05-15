@@ -9,7 +9,7 @@ import warnings
 from sklearn.base import BaseEstimator, TransformerMixin
 
 # Configurações de página
-st.set_page_config(page_title="Passos Mágicos AI", layout="wide", page_icon="🎯")
+st.set_page_config(page_title="Passos Mágicos - FIAP DATATHON F5", layout="wide", page_icon="🎯")
 warnings.filterwarnings("ignore")
 
 # ==============================================================================
@@ -779,4 +779,4 @@ with aba4:
             if prob > 0.5: st.error("🚨 ALTO RISCO")
             else: st.success("✅ ESTÁVEL")
 
-st.caption("Associação Passos Mágicos | Datathon FIAP Data Analytics")
+st.caption("Associação Passos Mágicos | Datathon F5 FIAP Data Analytics")
